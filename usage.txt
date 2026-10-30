@@ -1,0 +1,3 @@
+Usage: bash analyze.sh LOG_FILE
+Output: lines=N errors_or_failed=N warnings=N
+Only readable regular files are accepted.
