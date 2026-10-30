@@ -9,4 +9,4 @@ echo 'PASS mixed log counts'
 echo 'PASS empty log'
 if bash analyze.sh missing.log >/dev/null 2>&1; then exit 1;else [[ $? == 2 ]];fi
 echo 'PASS missing input rejected'
-echo 'passed=3 failed=0'
+echo '3/3 analyzer tests passed'
