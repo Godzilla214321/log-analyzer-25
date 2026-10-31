@@ -24,3 +24,15 @@ Only readable regular files are accepted.
 ```
 
 Требуется один доступный для чтения обычный файл.
+
+## Уточнение ввода (роль B)
+
+```text
+Usage: bash analyze.sh LOG_FILE
+Output: lines=N errors_or_failed=N warnings=N
+Only readable regular files are accepted.
+Exit 2 means an invalid, missing or unreadable input file.
+Error/failed and warn matching is case-insensitive.
+```
+
+Конфликт удаления/редактирования usage.txt разрешён переносом полезного текста в README.
